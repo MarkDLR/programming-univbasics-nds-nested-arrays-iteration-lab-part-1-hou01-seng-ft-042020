@@ -6,7 +6,7 @@ x = 0
 while x < src.count do
   element_i = 0
   while element_i < src[x].count do
-    if src[x][element_i] == Even
+    if src[x][element_i].even?
       p src[x][element_i]
     end
     element_i += 1
